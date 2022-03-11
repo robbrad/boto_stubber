@@ -1,0 +1,24 @@
+[[source]]
+url = "https://pypi.org/simple"
+verify_ssl = true
+name = "pypi"
+
+[packages]
+boto3 = "*"
+pytest = "*"
+pylint = "*"
+
+[dev-packages]
+boto3 = "*"
+pytest = "*"
+pylint = "*"
+mutmut = "*"
+coverage = "*"
+black = "*"
+pytest-xdist = "*"
+
+[requires]
+python_version = "3.8"
+
+[pipenv]
+allow_prereleases = true
